@@ -13,6 +13,18 @@ function App() {
     setFlipped(false)
   }
 
+  // next card random
+  const nextRandom = () => {
+    setIdx((i) => {
+      if (cards.length < 2) return i
+      // pick a random card, but never the one we're already on
+      let r = Math.floor(Math.random() * (cards.length - 1))
+      if (r >= i) r += 1
+      return r
+    })
+    setFlipped(false)
+  }
+
   const card = cards[idx]
 
   return (
@@ -28,7 +40,7 @@ function App() {
         <div className="panel-top">
           <div className="panel-title">Study time</div>
           <div className="counter">
-            {idx + 1} / {cards.length}
+            total: {cards.length}
           </div>
         </div>
 
@@ -44,7 +56,7 @@ function App() {
         <Controls
           onPrev={() => go(-1)}
           onFlip={() => setFlipped((f) => !f)}
-          onNext={() => go(1)}
+          onNext={nextRandom}
         />
       </div>
     </div>
