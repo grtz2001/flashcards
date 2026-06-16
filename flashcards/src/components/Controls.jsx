@@ -1,3 +1,4 @@
+// my control component
 function Controls({ onPrev, onFlip, onNext }) {
   return (
     <div className="controls">

@@ -1,3 +1,4 @@
+// my flashcard component
 function Flashcard({ front, back, flipped, onFlip }) {
   return (
     <div

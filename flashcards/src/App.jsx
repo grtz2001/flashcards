@@ -18,8 +18,10 @@ function App() {
   return (
     <div className="page">
       <header className="header">
-        <div className="pretitle">Learn Spanish</div>
-        <h1 className="title">Flashcards</h1>
+        {/* this is my title of card set */}
+        <h1 className="title">Spanish Practice</h1>
+        {/* this is a description */}
+        <div className="description">A website for learning Spanish</div> 
       </header>
 
       <div className="card-panel">

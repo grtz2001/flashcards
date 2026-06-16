@@ -1,4 +1,4 @@
-// 15-card deck: vocabulary → phrases → verbs (English front, Spanish back)
+// 15 card deck: vocabulary, phrases, verbs 
 export const cards = [
   { en: 'apple', es: 'la manzana', cat: 'Vocabulary' },
   { en: 'dog', es: 'el perro', cat: 'Vocabulary' },
