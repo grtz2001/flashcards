@@ -22,7 +22,7 @@ The following **required** functionality is completed:
 - [x] **Clicking on the card flips the card over, showing the corresponding component of the information pair**
   - [x] Clicking on a card flips it over, showing the back with corresponding information 
   - [x] Clicking on a flipped card again flips it back, showing the front
-- [ ] **Clicking on the next button displays a random new card**
+- [x] **Clicking on the next button displays a random new card**
 
 The following **optional** features are implemented:
 
@@ -41,14 +41,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+https://imgur.com/a/VEZ8vXs
 
 ## Notes
 
