@@ -201,6 +201,19 @@
   box-shadow: 3px 3px 0 #2b2118;
 }
 
+/* Random-jump button */
+.random-btn {
+  height: 48px;
+  border-radius: 14px;
+  border: 3px solid #2b2118;
+  background: #fffdf8;
+  color: #2b2118;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  box-shadow: 3px 3px 0 #2b2118;
+}
+
 /* Disabled buttons */
 .nav-btn:disabled,
 .flip-btn:disabled {
