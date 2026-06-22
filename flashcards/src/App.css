@@ -200,3 +200,92 @@
   font-size: 17px;
   box-shadow: 3px 3px 0 #2b2118;
 }
+
+/* Disabled buttons */
+.nav-btn:disabled,
+.flip-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+/* Card can't be flipped until a guess is submitted */
+.flashcard.is-locked {
+  cursor: not-allowed;
+}
+
+/* Guess input */
+.guess {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.guess-label {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: #2b2118;
+}
+
+.guess-row {
+  display: flex;
+  gap: 10px;
+}
+
+.guess-input {
+  flex: 1;
+  height: 48px;
+  padding: 0 14px;
+  border-radius: 12px;
+  border: 3px solid #2b2118;
+  background: #fffdf8;
+  color: #2b2118;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  outline: none;
+}
+
+.guess-input::placeholder {
+  color: #b0937a;
+}
+
+/* Coloured borders = visual feedback */
+.guess-input.is-correct {
+  border-color: #2e8b57;
+  box-shadow: 3px 3px 0 #2e8b57;
+}
+
+.guess-input.is-incorrect {
+  border-color: #d9603b;
+  box-shadow: 3px 3px 0 #d9603b;
+}
+
+.guess-btn {
+  height: 48px;
+  padding: 0 18px;
+  border-radius: 12px;
+  border: 3px solid #2b2118;
+  background: #e0a126;
+  color: #2b2118;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  box-shadow: 3px 3px 0 #2b2118;
+}
+
+.feedback {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.feedback-correct {
+  color: #2e8b57;
+}
+
+.feedback-incorrect {
+  color: #d9603b;
+}
